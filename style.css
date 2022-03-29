@@ -1,0 +1,126 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sum{
+    width: 100%;
+    
+}
+/* header */
+.collapse{
+    margin-left: 180px;
+    padding-top: 50px;
+    font-family: 'Rufina', serif;
+}
+.logo{
+    margin-left: 350px;
+}  
+.nav-link{
+    margin-left: 50px;
+}
+
+/* .slide */
+.slide{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 120px;
+}
+/* about */
+.about{
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* gap: 120px; */
+    position: relative;
+    
+}
+.about-img{
+    position: absolute;
+    right: 0;
+    top: 70%;   
+}
+.nen{
+    position: absolute;
+    top: -28px;
+    right: -34px;
+    transform: rotate(-5deg);
+}
+.content{
+    
+    width: 100%;
+    
+    text-align: center;
+    
+}
+.content-text{
+    width: 40%;
+    margin: auto;
+}
+
+.img {
+    margin: 0;
+    height: 570px;
+    margin-top: 140px; 
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+}
+/* Procedure */
+.Procedure{
+    margin:0;
+    padding: 140px;
+}
+/* article */
+.article{
+    margin: 0;
+    padding: 150px;
+    margin-top: 140px;
+    text-align: center;
+    background-color: #fff9f8;
+    height: 715px;
+    
+}
+/* team */
+.team{
+margin: 0;
+padding: 140px;
+}
+/* text */
+.card-text{
+    width: 800px;
+    float: left;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 10%;
+    font-family: 'Rufina', serif;
+}
+
+.text3{
+    color:#ff817e;
+    font-size: 12pt;
+    margin: 0;
+   
+}
+.text1{
+    font-size: 60pt;
+    margin: 0;
+}
+.text {
+    color: #555555;
+    font-size: 15pt;
+    margin: 0;
+}
+
+/* btn */
+#btn{
+    background-color: #ff817e;
+    border-radius: 20px;
+    font-family: 'Rufina', serif;
+}
